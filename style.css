@@ -1,0 +1,149 @@
+:root {
+    --c-bg-muted: #fcf5f3;
+
+    --c-txt-muted: black;
+    --c-txt-highlight: #fe5c60;
+
+    --c-bg-highlight: #00b15a;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px 0px 20px 100px;
+    background-color: var(--c-bg-muted);
+    
+}
+
+.logo {
+    margin-right: auto;
+    font-size: 1.5em;
+}
+
+.links {
+    display: flex;
+    /* margin-left: auto; */
+    padding: 0px 100px 0px 0px;
+    gap: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    color: var(--c-txt-muted);
+    font-size: 1em;
+}
+
+/* hero */
+
+.hero {
+    display: flex;
+    background-color: var(--c-bg-muted);
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+.heroLeft {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 200px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 45px;    
+}
+
+.heroRight img {
+    max-height: calc(260px + 1em);
+}
+
+.hero button {
+    display: block;
+    width: 120px;
+    height: 50px;
+    color: var(--c-bg-muted);
+    background-color: var(--c-txt-highlight);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    margin: 0;
+    padding: 2em;
+    font-size: 1.5em;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}   
+
+.info img {
+    border-radius: 10px;
+    border: 3px solid var(--c-bg-highlight);
+}
+
+/* quote */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    background-color: var(--c-bg-highlight);
+    margin-top: 50px;
+    padding: 80px 300px;
+    gap: 1px;
+}
+
+.quote p {
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.quote b {
+    text-align: right;
+}
+
+/* Sign Up */
+
+.signup {
+    display: flex;
+    align-items: center;
+    margin: 50px 200px;
+    padding: 10px 80px;
+}
+
+.sign {
+    flex: 1
+}
+
+.signupLeft {
+    text-align: left;
+}
