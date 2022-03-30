@@ -1,0 +1,178 @@
+:root {
+    --c-bg-muted: #fcf5f3;
+    --c-bg-highlight: #00b15a;
+
+    --c-txt-muted: black;
+    --c-txt-highlight: #fe5c60;
+}
+
+body {
+    font-family: 'Montserrat';
+    background-color: var(--c-bg-muted);
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.wrapper:first-of-type {
+    background-color: var(--c-bg-muted);
+    
+}
+
+#first {
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+    padding: 1rem 14rem 7rem;
+}
+
+/* nav bar */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+#logo {
+    font-size: 30px;
+    font-weight: 800;
+    user-select: none;    
+}
+
+#logo:hover {
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    font-size: 15px;
+    gap: 1.5rem;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    color: var(--c-txt-highlight);
+}
+
+/* hero */
+
+#hero {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 12rem;
+}
+
+/* #heroLeft {
+    display: flex;
+    flex-direction: column;
+} */
+
+#heroLeft h2 {
+    margin: 0;
+    font-size: 40px;
+}
+
+/* #heroLeft,
+#heroRight {
+    flex: 1 1 0;
+} */
+
+/* #heroRight {
+    display: flex;
+} */
+
+#heroRight img{
+    border-radius: 10px;
+    /* object-fit: cover; */
+    max-height: calc(200px + 1rem);
+}
+
+.order {
+    border-radius: 7px;
+    padding-inline: 50px;
+    padding: 10px;
+    font-weight: bolder;
+    color: var(--c-bg-muted);
+    /* outline: none; */
+    background-color: var(--c-txt-highlight);
+    border: 2px solid var(--c-txt-highlight);
+
+}
+
+/* section center */
+
+
+
+#second h3 {
+    color: var(--c-txt-muted);
+    margin: 0;
+    padding: 0;
+}
+
+#second {
+    padding: 4rem 0;
+}
+
+#sec {
+    background-color: var(--c-bg-highlight);
+}
+
+#infoWrapper {
+    display: flex;
+    gap: 2rem;
+}
+
+.sectionCenter {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 3rem;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 150px;
+}
+
+.infobox {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+#box1 {
+    background-color: var(--c-bg-muted);
+}
+
+#box2 {
+    background-color: var(--c-bg-muted);
+}
+
+#box3 {
+    background-color: var(--c-bg-muted);
+}
+
+#box4 {
+    background-color: var(--c-bg-muted);
+}
