@@ -126,7 +126,7 @@ nav ul li:hover {
 }
 
 #second {
-    padding: 4rem 0;
+    padding: 3rem 0;
 }
 
 #sec {
@@ -135,7 +135,7 @@ nav ul li:hover {
 
 #infoWrapper {
     display: flex;
-    gap: 2rem;
+    gap: 5rem;
 }
 
 .sectionCenter {
@@ -151,28 +151,33 @@ nav ul li:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 5px;
     max-width: 150px;
 }
 
-.infobox {
+/* .infobox {
     width: 120px;
     height: 120px;
     border-radius: 10px;
+} */
+
+.info img {
+    width: 150px;
+    height: 150px;
 }
 
-#box1 {
-    background-color: var(--c-bg-muted);
+/* quote */
+
+#third {
+    padding: 6em 14rem 5rem 14rem;
+    gap: 1rem;
 }
 
-#box2 {
-    background-color: var(--c-bg-muted);
+h4 {
+    margin: 0;
 }
 
-#box3 {
-    background-color: var(--c-bg-muted);
+#third h3 {
+    margin-bottom: 0;
 }
 
-#box4 {
-    background-color: var(--c-bg-muted);
-}
