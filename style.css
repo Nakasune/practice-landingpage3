@@ -134,10 +134,11 @@ h3 {
 /* Sign Up */
 
 .signup {
+    background-color: var(--c-txt-highlight);
     display: flex;
     align-items: center;
-    margin: 50px 200px;
-    padding: 10px 80px;
+    margin: 80px 200px;
+    padding: 20px 80px;
 }
 
 .sign {
@@ -146,4 +147,16 @@ h3 {
 
 .signupLeft {
     text-align: left;
+}
+
+.signupRight button {
+    padding: 5px 25px;
+}
+
+.footer {
+    background-color: var(--c-txt-muted);
+}
+
+.footer p {
+    color:  var(--c-bg-muted)
 }
